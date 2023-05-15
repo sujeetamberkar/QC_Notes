@@ -48,13 +48,6 @@ def main():
     print("Alice's key:", alice_key)
 
 
-"""
-    matching_bases = [i for i in range(num_bits) if alice_bases[i] == bob_bases[i]]
-    alice_key = [alice_bits[i] for i in matching_bases]
-    print("Alice's key:", alice_key)
-
-"""
-
     
 
 
