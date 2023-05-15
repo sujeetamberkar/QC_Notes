@@ -21,7 +21,12 @@ def main():
     alice_bits = [random.choice([0, 1]) for _ in range(num_bits)]
     alice_bases = [random.choice(['+', 'x']) for _ in range(num_bits)]
 
-    alice_qubits = [prepare_qubit(bit, basis) for bit, basis in zip(alice_bits, alice_bases)]
+    alice_qubits = []
+    for i in range(len(alice_bits)):
+        bit = alice_bits[i]
+        basis = alice_bases[i]
+        prepared_qubit = prepare_qubit(bit, basis)
+        alice_qubits.append(prepared_qubit)
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect(('localhost', 12331))
@@ -46,6 +51,7 @@ def main():
     for i in matching_bases:
         alice_key.append(alice_bits[i])
     print("Alice's key:", alice_key)
+
 
 
     
