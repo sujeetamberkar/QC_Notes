@@ -17,7 +17,7 @@ def measure_qubit(qc, basis):
     return int(result.get_memory()[0])
 
 def main():
-    num_bits = 20
+    num_bits = 20 ## Length of the key depends on num_bits, it will always be less that num_bits most probably num_bits/2
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind(('localhost', 12331))
