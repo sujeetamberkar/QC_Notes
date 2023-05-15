@@ -16,7 +16,7 @@ def serialize_qubit(qc):
     return qasm_str.encode('utf-8')
 
 def main():
-    num_bits = 20
+    num_bits = 20 ## Length of the key depends on num_bits, it will always be less that num_bits most probably num_bits/2
 
     alice_bits = [random.choice([0, 1]) for _ in range(num_bits)]
     alice_bases = [random.choice(['+', 'x']) for _ in range(num_bits)]
