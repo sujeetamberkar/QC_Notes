@@ -13,9 +13,11 @@ pip install qiskit
 2) In one of the terminal windows, navigate to the directory containing the bob.py script and run it:
 python bob.py
 Bob's script will prompt you to enter the lower and upper limits for the port number. Make sure to choose valid and available port numbers.
+
 3)In the other terminal window, navigate to the directory containing the alice.py script and run it:
 python alice.py
 Alice's script will prompt you to enter the lower and upper limits for the port number. Make sure to enter the same values as provided in Bob's script
+
 4)Observe the output in both terminal windows. Alice and Bob will exchange quantum states and classical information, and at the end, they will both have the same secret key. Alice will use the key to encrypt a message and send it to Bob, who will decrypt it using his key.
 
 ## About the Author
