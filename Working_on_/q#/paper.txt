@@ -1,0 +1,36 @@
+Research paper name 
+Quantum Hash function and its application to privacy amplification in quantum key distribution, pseudo-random number generation and image encryption
+
+Quantum information and quantum computation have achieved a huge success during the last years. In this paper, we investigate the capability of quantum Hash function, which can be constructed by subtly modifying quantum walks, a famous quantum computation model. It is found that quantum Hash function can act as a hash function for the privacy amplification process of quantum key distribution systems with higher security. As a byproduct, quantum Hash function can also be used for pseudorandom number generation due to its inherent chaotic dynamics. Further we discuss the application of quantum Hash function to image encryption and propose a novel image encryption algorithm. 
+Numerical simulations and performance comparisons show that quantum Hash function is eligible for privacy amplification in quantum key distribution, pseudo-random number eneration and image encryption in terms of various hash tests and randomness tests. It extends the scope of application of quantum computation and quantum information
+
+With the rapid development of quantum communication, quantum key distribution (QKD) is the most mature 
+branch of quantum communication. The goal of QKD is to create an absolutely secure key between two communicating parties. 
+QKD generally contains three steps: 
+(1) raw key sifting, 
+(2) error reconciliation
+(3) privacy amplification. 
+As an important step of QKD, the privacy amplification process is implemented by adopting universal hash functions1
+However, these hash functions are generally constructed based on mathematics complexity and thus they are computationally secure. Because the fundamental principles of quantum mechanics ensure lots of quantum cryptographic protocols with unconditional security, this stimulates us to consider the privacy amplification problem in the context of quantum information, and intend to get a more secure solution to the privacy amplification process.
+
+In this paper, we construct a quantum Hash function (QHF) by subtly modifying the quantum walks (QW) model5–13 and it can be used for the privacy amplification process of QKD systems with higher security by means of the physical principles of quantum mechanics. As a byproduct, QHF can also be used for pseudo-random number generation due to its inherent chaotic dynamics and further we propose a novel QHF-based image encryption algorithm. Numerical simulations and performance comparisons show that QHF is eligible as a hash function for privacy amplification in QKD, pseudo-random number generation and image encryption in terms of various hash tests and randomness tests
+
+
+Compared to the QW-based algorithm14, the novelty of the present QHF-based scheme lies in that the con- structed QHF can be not only used for pseudo-random number generation and further image encryption, but also used for the privacy amplification process of QKD systems with higher security. It extends the scope of appli- cation of quantum computation and quantum information.
+
+#################################
+Page 2
+
+Results
+
+The construction of QHF. QHF can be constructed by subtly modifying QW. QW has two models: discrete QW and continuous QW5. The basic discrete QW includes two quantum systems: walker and coin. The state of the walker-coin system is denoted by a vector in the Hilbert space Ht = H p ⊗ Hc, where the subscripts p and c stand for the walker and the coin, respectively. The motion of the walk is conditioned by the coin state via a con- ditional shift operator
+
+		ŝ = xΣ ( |x+1,0 >    <x, 0|  +  |x-1,1 >  <x,1| )   (eq 1)
+
+where the summation symbol denotes the sum over all possible positions. The evolution of the total quantum system can be implemented by repeating the global unitary operator
+		Û = Ŝ(Î ⊗ Ĉ)   (eq 2)
+
+where Î is the identity operator and Ĉ is the coin operator applied on the coin state. Hence the final state |ψ>t after t steps is expressed by
+|ψ>t = (Û)t | ψ>0 = xΣ vΣ λx,v |x,v>. (eq 3)
+
+where ^I is the identity operator and C is the coin operator applied on the coin state. Hence the final state ψ t after t steps is expressed by

@@ -1,0 +1,4 @@
+WHy do we need to Introduce a phase shift of pi/4 to each qubit state.
+    # Apply controlled operations for entangling qubits and introducing non-linearity.
+ t_qc = transpile(qc, backend)
+    qobj = assemble(t_qc)
