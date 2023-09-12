@@ -1,0 +1,25 @@
+String: Ab | Quantum Hash: 1011100100011000
+String: Sujeet | Quantum Hash: 010100000111110011001001100100101111101100100110
+String: MIT | Quantum Hash: 111111001000110100100111
+------
+String: Ab | Quantum Hash: 1111010110101000
+String: Sujeet | Quantum Hash: 111001101100000000100010001011001001011000011110
+String: MIT | Quantum Hash: 000101001100100111100100
+------
+String: Ab | Quantum Hash: 0000111110101100
+String: Sujeet | Quantum Hash: 000110001111110011100010011111010111000000001011
+String: MIT | Quantum Hash: 001101110100001111100011
+------
+(base) sujeetamberkar@Sujeets-Air QC_Notes % /usr/local/bin/python3 /Users/sujeetamberkar/Work/QC_Notes/Error/main.py
+String: Ab | Quantum Hash: 0001011001000111
+String: Sujeet | Quantum Hash: 111001111111110111001011000111110111101111101100
+String: MIT | Quantum Hash: 110010100011110111010001
+------
+String: Ab | Quantum Hash: 1001111000100111
+String: Sujeet | Quantum Hash: 100100011000011110000100000111101010110001011101
+String: MIT | Quantum Hash: 101000010000011001100011
+------
+String: Ab | Quantum Hash: 0010111111101000
+String: Sujeet | Quantum Hash: 111101010100011110111000011001101011011100110001
+String: MIT | Quantum Hash: 100101001011110000101001
+------
